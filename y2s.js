@@ -20,7 +20,6 @@ var Y2S = {
 	},
 	getSpotifyList: function(){
 		this.makeList();
-		debugger;
 		this.totalTracks = this.artistTitleContainer.length;
 		this.artistTitleContainer.forEach(function(artistTitle){
 			var scriptYql = 'http://query.yahooapis.com/v1/public/yql?q='+encodeURIComponent('SELECT * FROM spotify.search.track where track = "'+artistTitle+'" limit 1')+'&format=json&env='+encodeURIComponent('store://datatables.org/alltableswithkeys')+'&callback=Y2S.getTrack',scriptNode= document.createElement('script');
