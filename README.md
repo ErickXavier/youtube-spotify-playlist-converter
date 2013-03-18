@@ -19,8 +19,8 @@ Take the title of video and pass it to spotify track table in YQL
 
 What else to do
 ===============
-Beautify how results are shown
+Beautify how results are shown (not the yucky alert, probably a lightbox)
 
 Few promotional channels like VEVO give title in <video title, artist> format which we could use to enhance the search
 
-Show the progress
+Show the progress (progress bar?)
