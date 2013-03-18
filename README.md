@@ -6,7 +6,7 @@ Youtube playlist to spotify playlist converter
 How to use
 ==========
 
-Copy the JS and run it in the console of your browser on a youtube playlist page (Eg: http://www.youtube.com/playlist?list=PLFC47D95C3AB20CFA)
+Run the contents of y2s.js in the console of your browser on a youtube playlist page (Eg: http://www.youtube.com/playlist?list=PLFC47D95C3AB20CFA)
 Now run Y2S.getSpotifyList();
 
 An alert box shows up with all the spotify uri's (separated by space) the script could find.
