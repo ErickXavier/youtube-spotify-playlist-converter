@@ -5,13 +5,13 @@ var Y2S = {
 	artistTitleContainer: [],
 	spotifyUri: [],
 	initialize: function(){
-		this.videos = document.querySelectorAll('.playlist-video-item');
+		this.videos = document.querySelectorAll('.pl-video-title-link');
 		this.artistTitleContainer.length = this.spotifyUri.length = this.downloaded = this.totalTracks = 0;
 	},
 	makeList: function(){
 		this.initialize();
 		for (var i=0, length = this.videos.length; i < length; i++){
-			this.artistTitleContainer.push(this.videos[i].querySelector('.video-title').innerText);
+			this.artistTitleContainer.push(this.videos[i].innerText);
 		}
 	},
 	showPlainList: function(){
@@ -40,4 +40,4 @@ var Y2S = {
 			alert(this.spotifyUri.join(' '));
 		}		
 	}
-}
+};
